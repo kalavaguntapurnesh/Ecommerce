@@ -65,7 +65,7 @@ const ContactOne = () => {
                   </div>
                 </div>
                 <div className="flex justify-center items-center">
-                  <div className="bg-[#f4f4f4] h-32 lg:w-3/4 rounded">
+                  <div className="bg-[#f4f4f4] h-32 lg:w-3/4 w-full rounded">
                     <div className="flex justify-center items-center pt-4">
                       <BsFillTelephoneFill className="w-8 h-8" />
                     </div>
