@@ -70,7 +70,7 @@ const Navbar = () => {
             ></Modal>
 
             <div className="md:flex justify-center items-center gap-4  hidden mr-6 ">
-              <div className="flex xl:w-80 max-xl:w-full bg-gray-100 px-6 py-3 rounded outline outline-transparent focus-within:outline-[#007bff] focus-within:bg-transparent">
+              <div className="flex xl:w-80 max-xl:w-full bg-gray-100 px-6 py-3 rounded-full outline outline-transparent focus-within:outline-[#007bff] focus-within:bg-transparent">
                 <input
                   type="text"
                   placeholder="Search something..."
