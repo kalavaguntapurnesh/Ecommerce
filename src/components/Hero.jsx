@@ -1,19 +1,14 @@
-import { Autoplay, A11y } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/autoplay";
-import "swiper/css/controller";
-import One from "../../public/Hero.webp";
+import HeroImage from "../../public/Hero.jpg";
 
 const Hero = () => {
   return (
     <div className="w-full bg-white lg:pt-16 pt-8 lg:h-[75vh] h-auto">
       <div className="relative">
         <img
-          src="https://yourdesignstore.s3.amazonaws.com/uploads/yds/bannerImages/17120370054027Website-Banner-Iamge-Desktop.jpg"
+          src={HeroImage}
           alt=""
           // alt={`slide-${index + 1}`}
-          className="w-full h-[550px] lg:object-cover object-center"
+          className="w-full lg:h-[550px] h-[450px] lg:object-cover object-center"
         />
         {/* <div className="absolute inset-0 rounded-md"></div>
         <div className="absolute inset-0 flex flex-col items-start justify-center w-[50%] ">
