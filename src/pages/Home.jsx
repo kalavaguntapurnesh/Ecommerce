@@ -8,6 +8,7 @@ import TeamWear from "../components/TeamWear";
 import ScrollToTop from "../components/ScrollToTop";
 import Steps from "../components/Steps";
 import FAQ from "../components/FAQ";
+import ActiveSlider from "./../components/ActiveSlider";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <Benefits />
       <Steps />
       <TeamWear />
+      <ActiveSlider />
       <FAQ />
       <Footer />
     </>
