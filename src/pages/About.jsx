@@ -1,3 +1,4 @@
+import AboutFive from "../components/AboutFive";
 import AboutFour from "../components/AboutFour";
 import AboutOne from "../components/AboutOne";
 import AboutThree from "../components/AboutThree";
@@ -13,6 +14,7 @@ const About = () => {
       <AboutTwo />
       <AboutFour />
       <AboutThree />
+      <AboutFive />
       <Footer />
     </div>
   );
