@@ -33,31 +33,28 @@ const Navbar = () => {
         <div className="justify-center w-full">
           <div className="text-black flex justify-between items-center lg:shadow-none shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] h-24 w-full lg:top-0 top-0 bg-white max-w-[1400px] mx-auto">
             <div className="ml-2 flex flex-row justify-center items-center">
-              <img src={Logo} className="w-[86px]" alt="" />
-              {/* <h1 className="lg:block hidden text-3xl text-[#3e60e0] uppercase font-semibold">
-                Vahas.
-              </h1> */}
+              <img src={Logo} className="lg:w-[86px] w-[76px]" alt="" />
             </div>
             <div>
               <ul className="hidden lg:flex items-center gap-[3vw]">
                 {" "}
-                <li className="group cursor-pointer uppercase text-colorThree font-medium text-sm tracking-wider transition duration-1000 ease-in-out">
+                <li className="group cursor-pointer uppercase text-gray-600 font-medium text-sm tracking-wider transition duration-1000 ease-in-out">
                   <a href="/">Home</a>
                   <div className="bg-[#3e60e0] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
-                <li className="group cursor-pointer uppercase text-colorThree font-medium text-sm tracking-wider transition duration-1000 ease-in-out">
+                <li className="group cursor-pointer uppercase text-gray-600 font-medium text-sm tracking-wider transition duration-1000 ease-in-out">
                   <a href="/designer">Customize Now</a>
                   <div className="bg-[#3e60e0] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
-                <li className="group cursor-pointer uppercase text-colorThree font-medium text-sm tracking-wider transition duration-1000 ease-in-out">
+                <li className="group cursor-pointer uppercase text-gray-600 font-medium text-sm tracking-wider transition duration-1000 ease-in-out">
                   <a href="/bulk-enquiry">Bulk Enquiry</a>
                   <div className="bg-[#3e60e0] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
-                <li className="group cursor-pointer uppercase text-colorThree font-medium text-sm tracking-wider transition duration-1000 ease-in-out">
+                <li className="group cursor-pointer uppercase text-gray-600 font-medium text-sm tracking-wider transition duration-1000 ease-in-out">
                   <a href="/about-us">About Us</a>
                   <div className="bg-[#3e60e0] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
-                <li className="group cursor-pointer uppercase text-colorThree font-medium text-sm tracking-wider transition duration-1000 ease-in-out">
+                <li className="group cursor-pointer uppercase text-gray-600 font-medium text-sm tracking-wider transition duration-1000 ease-in-out">
                   <a href="/contact">Contact Us</a>
                   <div className="bg-[#3e60e0] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
                 </li>
@@ -69,7 +66,7 @@ const Navbar = () => {
               onClose={() => setShowModal(false)}
             ></Modal>
 
-            <div className="md:flex justify-center items-center gap-4  hidden mr-6 ">
+            <div className="flex justify-center items-center gap-4  mr-6 ">
               <div className="flex xl:w-80 max-xl:w-full bg-gray-100 px-6 py-3 rounded-full outline outline-transparent focus-within:outline-[#007bff] focus-within:bg-transparent">
                 <input
                   type="text"
@@ -84,9 +81,6 @@ const Navbar = () => {
                 >
                   <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                 </svg>
-              </div>
-              <div className="cursor-pointer">
-                <CiHeart className="w-6 h-6" />
               </div>
               <a href="/cart" className="cursor-pointer">
                 <CiShoppingCart className="w-6 h-6" />
@@ -113,16 +107,9 @@ const Navbar = () => {
                   : "lg:hidden fixed left-0 top-0 w-[70%] border-r h-[75%] bg-white dark:bg-[#000300] ease-in-out duration-1000 rounded-b-lg z-10 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]"
               }
             >
-              {/* <h1 className="w-full text-2xl text-colorFour font-bold m-4 cursor-pointer border-2 border-red-500">
-            VAHAS.
-          </h1> */}
               <div className="w-full flex flex-row justify-start items-center">
                 <img src={Logo} className="w-[86px] ml-3" alt="" />
-                <div>
-                  {/* <h1 className="text-2xl text-[#3e60e0] uppercase font-semibold">
-                    VAHAS.
-                  </h1> */}
-                </div>
+                <div></div>
               </div>
 
               <ul className=" uppercase p-4">
@@ -130,21 +117,17 @@ const Navbar = () => {
                   <a href="/">Shop All</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
-                  <a href="/about">Categories</a>
+                  <a href="/designer">Customize Now</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
-                  <a href="/careers">Brands</a>
+                  <a href="/bulk-enquiry">Bulk Enquiry</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
-                  <a href="/products">Fresh Arrivals</a>
+                  <a href="/about-us">About Us</a>
                 </li>
                 <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
-                  <a href="/solutions">Footwear</a>
-                </li>
-
-                {/* <li className="p-4 text-colorThree cursor-pointer font-medium dark:text-white">
                   <a href="/contact">Contact Us</a>
-                </li> */}
+                </li>
               </ul>
             </div>
           </div>
