@@ -25,10 +25,10 @@ const TeamWear = () => {
                 </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 pt-8">
                   <a
-                    href="/cricket-kit"
-                    class="relative cursor-pointer rounded bg-white bg-clip-border shadow-md lg:h-60"
+                    href="/designer"
+                    class="relative cursor-pointer bg-white bg-clip-border lg:h-60 rounded"
                   >
-                    <div class="h-full shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
+                    <div class="h-full  bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
                       <img
                         src="https://images.pexels.com/photos/3800541/pexels-photo-3800541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                         alt="ui/ux review check"
@@ -42,10 +42,10 @@ const TeamWear = () => {
                   </a>
 
                   <a
-                    href="/cricket-kit"
+                    href="/designer"
                     class="relative cursor-pointer rounded bg-white bg-clip-border shadow-md lg:h-60"
                   >
-                    <div class="h-full shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
+                    <div class="h-full  bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
                       <img
                         src="https://images.pexels.com/photos/3148452/pexels-photo-3148452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                         alt="ui/ux review check"
@@ -59,10 +59,10 @@ const TeamWear = () => {
                   </a>
 
                   <a
-                    href="/cricket-kit"
+                    href="/designer"
                     class="relative cursor-pointer rounded bg-white bg-clip-border shadow-md lg:h-60"
                   >
-                    <div class="h-full shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
+                    <div class="h-full bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
                       <img
                         src="https://img.freepik.com/free-photo/nice-men-training-basketball-court_23-2148264641.jpg?t=st=1718161637~exp=1718165237~hmac=9b472d420b552178c34a0b61f21480a8c000196067dfd091296919b189eaf7ac&w=2000"
                         alt="ui/ux review check"
@@ -76,10 +76,10 @@ const TeamWear = () => {
                   </a>
 
                   <a
-                    href="/cricket-kit"
+                    href="/designer"
                     class="relative cursor-pointer rounded bg-white bg-clip-border shadow-md lg:h-60"
                   >
-                    <div class="h-full shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
+                    <div class="h-full bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
                       <img
                         src="https://images.pexels.com/photos/163516/baseball-third-base-play-at-third-diving-into-third-163516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                         alt="ui/ux review check"
@@ -93,10 +93,10 @@ const TeamWear = () => {
                   </a>
 
                   <a
-                    href="/cricket-kit"
+                    href="/designer"
                     class="relative cursor-pointer rounded bg-white bg-clip-border shadow-md lg:h-60"
                   >
-                    <div class="h-full shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
+                    <div class="h-full bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
                       <img
                         src="https://images.pexels.com/photos/1277397/pexels-photo-1277397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                         alt="ui/ux review check"
@@ -110,10 +110,10 @@ const TeamWear = () => {
                   </a>
 
                   <a
-                    href="/cricket-kit"
+                    href="/designer"
                     class="relative cursor-pointer rounded bg-white bg-clip-border shadow-md lg:h-60"
                   >
-                    <div class="h-full shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
+                    <div class="h-full bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
                       <img
                         src="https://images.pexels.com/photos/8007094/pexels-photo-8007094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                         alt="ui/ux review check"
@@ -126,10 +126,10 @@ const TeamWear = () => {
                     </div>
                   </a>
                   <a
-                    href="/cricket-kit"
+                    href="/designer"
                     class="relative cursor-pointer rounded bg-white bg-clip-border shadow-md lg:h-60"
                   >
-                    <div class="h-full shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
+                    <div class="h-full bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
                       <img
                         src="https://images.pexels.com/photos/159728/lacrosse-lacrosse-team-champions-state-champions-159728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                         alt="ui/ux review check"
@@ -145,10 +145,10 @@ const TeamWear = () => {
                   </a>
 
                   <a
-                    href="/cricket-kit"
+                    href="/designer"
                     class="relative cursor-pointer rounded bg-white bg-clip-border shadow-md lg:h-60"
                   >
-                    <div class="h-full shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
+                    <div class="h-full bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out">
                       <img
                         src="https://images.pexels.com/photos/3693205/pexels-photo-3693205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                         alt="ui/ux review check"
