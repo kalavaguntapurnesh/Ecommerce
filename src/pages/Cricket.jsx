@@ -17,7 +17,7 @@ const Cricket = () => {
 
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 pt-8">
                 <a
-                  href="/cricket-kit"
+                  href="/custom-jersey"
                   class="relative cursor-pointer bg-white bg-clip-border lg:h-60 rounded"
                 >
                   <div class="h-full bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out rounded">
@@ -29,12 +29,12 @@ const Cricket = () => {
                   </div>
                   <div class="absolute inset-0 bg-gray-700 opacity-20 rounded-md"></div>
                   <div class="absolute inset-0 flex items-end mb-6 justify-center">
-                    <h2 class="text-white text-2xl font-bold">Cricket</h2>
+                    <h2 class="text-white text-2xl font-bold">TCA</h2>
                   </div>
                 </a>
 
                 <a
-                  href="/cricket-kit"
+                  href="/custom-jersey"
                   class="relative cursor-pointer rounded bg-white bg-clip-border shadow-md lg:h-60"
                 >
                   <div class="h-full  bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out rounded">
@@ -51,7 +51,7 @@ const Cricket = () => {
                 </a>
 
                 <a
-                  href="/cricket-kit"
+                  href="/custom-jersey"
                   class="relative cursor-pointer rounded bg-white bg-clip-border shadow-md lg:h-60"
                 >
                   <div class="h-full bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out rounded">
@@ -68,7 +68,7 @@ const Cricket = () => {
                 </a>
 
                 <a
-                  href="/cricket-kit"
+                  href="/custom-jersey"
                   class="relative cursor-pointer rounded bg-white bg-clip-border shadow-md lg:h-60"
                 >
                   <div class="h-full bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out rounded">
@@ -85,7 +85,7 @@ const Cricket = () => {
                 </a>
 
                 <a
-                  href="/cricket-kit"
+                  href="/custom-jersey"
                   class="relative cursor-pointer rounded bg-white bg-clip-border shadow-md lg:h-60"
                 >
                   <div class="h-full bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out rounded">
@@ -102,7 +102,7 @@ const Cricket = () => {
                 </a>
 
                 <a
-                  href="/cricket-kit"
+                  href="/custom-jersey"
                   class="relative cursor-pointer rounded bg-white bg-clip-border shadow-md lg:h-60"
                 >
                   <div class="h-full bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out rounded">
@@ -118,7 +118,7 @@ const Cricket = () => {
                   </div>
                 </a>
                 <a
-                  href="/cricket-kit"
+                  href="/custom-jersey"
                   class="relative cursor-pointer rounded bg-white bg-clip-border shadow-md lg:h-60"
                 >
                   <div class="h-full bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out rounded">
@@ -135,7 +135,7 @@ const Cricket = () => {
                 </a>
 
                 <a
-                  href="/cricket-kit"
+                  href="/custom-jersey"
                   class="relative cursor-pointer rounded bg-white bg-clip-border shadow-md lg:h-60"
                 >
                   <div class="h-full bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out rounded">
@@ -152,7 +152,7 @@ const Cricket = () => {
                 </a>
 
                 <a
-                  href="/cricket-kit"
+                  href="/custom-jersey"
                   class="relative cursor-pointer rounded bg-white bg-clip-border shadow-md lg:h-60"
                 >
                   <div class="h-full bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out rounded">
@@ -169,7 +169,7 @@ const Cricket = () => {
                 </a>
 
                 <a
-                  href="/cricket-kit"
+                  href="/custom-jersey"
                   class="relative cursor-pointer rounded bg-white bg-clip-border shadow-md lg:h-60"
                 >
                   <div class="h-full bg-clip-border hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition duration-1000 ease-in-out rounded">

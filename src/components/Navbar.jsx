@@ -1,20 +1,11 @@
 import { useState } from "react";
-import { AiOutlineClose } from "react-icons/ai";
-import { AiOutlineMenu } from "react-icons/ai";
+import { IoMdClose } from "react-icons/io";
 import Logo from "../assets/FooterLogo.png";
-import { FiChevronDown } from "react-icons/fi";
-import { LuGraduationCap } from "react-icons/lu";
-import { VscSymbolMethod } from "react-icons/vsc";
-import { FaIndustry } from "react-icons/fa";
 import { motion } from "framer-motion";
-import { AiFillCustomerService } from "react-icons/ai";
-import { FaBusinessTime } from "react-icons/fa";
-import { RiGovernmentFill } from "react-icons/ri";
-import { GiCrystalGrowth } from "react-icons/gi";
-import { CiHeart } from "react-icons/ci";
 import { CiShoppingCart } from "react-icons/ci";
 import { CiUser } from "react-icons/ci";
 import Modal from "./Modal";
+import { CgMenuGridO } from "react-icons/cg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -94,9 +85,9 @@ const Navbar = () => {
 
             <div onClick={handleNav} className="block lg:hidden cursor-pointer">
               {!nav ? (
-                <AiOutlineMenu size={30} className=" mr-4 " />
+                <CgMenuGridO size={30} className=" mr-4 text-gray-900" />
               ) : (
-                <AiOutlineClose size={30} className=" mr-4" />
+                <IoMdClose size={30} className=" mr-4 text-gray-900" />
               )}
             </div>
 
