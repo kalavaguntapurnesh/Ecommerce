@@ -8,6 +8,8 @@ import Designer from "./pages/Designer";
 import About from "./pages/About";
 import BulkEnquiry from "./pages/BulkEnquiry";
 import Cricket from "./pages/Cricket";
+import CustomJersey from "./pages/CustomJersey";
+import DesignOwn from "./pages/DesignOwn";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path="/register" element={<Register />}></Route>
         <Route path="/about-us" element={<About />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
+        <Route path="/custom-jersey" element={<CustomJersey />}></Route>
+        <Route path="/design-your-own" element={<DesignOwn />}></Route>
         <Route path="/bulk-enquiry" element={<BulkEnquiry />}></Route>
         <Route path="/designer" element={<Designer />}></Route>
         <Route path="/privacy-policy" element={<PrivacyPolicy />}></Route>
