@@ -29,7 +29,7 @@ const DesignNavbar = () => {
     <div className=" md:z-20 z-20 fixed w-full bg-white">
       <div className="w-full mx-auto max-w-[1400px]">
         <div className="justify-center w-full">
-          <div className="text-black flex justify-between items-center lg:shadow-none shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] h-24 w-full lg:top-0 top-0 bg-white max-w-[1400px] mx-auto">
+          <div className="text-black flex justify-between items-center lg:shadow-none shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] h-24 w-full lg:top-0 top-0  max-w-[1400px] mx-auto">
             <div className="ml-2 flex flex-row justify-center items-center">
               <img src={Logo} className=" w-[72px]" alt="" />
             </div>
@@ -64,10 +64,10 @@ const DesignNavbar = () => {
               </div>
 
               <div className="flex justify-center items-center">
-                <button className="text-center px-8 py-2 bg-slate-700 rounded-3xl text-white text-sm">Buy Now</button>
+                <button className="text-center px-8 py-2 bg-slate-700 rounded-3xl text-white text-sm">
+                  Buy Now
+                </button>
               </div>
-
-              
             </div>
 
             <div onClick={handleNav} className="block lg:hidden cursor-pointer">
