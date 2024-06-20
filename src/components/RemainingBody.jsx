@@ -144,6 +144,157 @@ const RemainingBody = () => {
                             your style with this exquisite fabric for a timeless
                             wardrobe essential.
                           </h4>
+
+                          <div className="grid md:grid-cols-12 grid-cols-6 gap-2 pt-3">
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-orange-500"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-gray-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-pink-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-green-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-red-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-blue-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-violet-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-yellow-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-zinc-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-neutral-300"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-stone-600"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-red-950"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-amber-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-lime-400"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-emerald-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-teal-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-cyan-600"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-sky-600"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-indigo-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-purple-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-fuchsia-600"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-rose-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-cyan-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-lime-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-amber-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-indigo-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-[#f1f1f1]"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-[#ffc020]"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-[#ffc020]"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-violet-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-red-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-green-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-pink-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-slate-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-blue-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-gray-500"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-black"
+                              htmlFor="html"
+                            ></label>
+                          </div>
                         </div>
                       )}
                     </div>
@@ -173,12 +324,158 @@ const RemainingBody = () => {
 
                       {openThree && (
                         <div className="pt-4 pb-4 w-10/12">
-                          <h4 className="">
-                            A luxurious blend of comfort and elegance, Interlock
-                            is renowned for its softness and durability. Elevate
-                            your style with this exquisite fabric for a timeless
-                            wardrobe essential.
-                          </h4>
+                          <h4 className="">Choose Base Color</h4>
+
+                          <div className="grid md:grid-cols-12 grid-cols-6 gap-2 pt-3">
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-orange-500"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-gray-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-pink-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-green-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-red-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-blue-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-violet-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-yellow-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-zinc-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-neutral-300"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-stone-600"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-red-950"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-amber-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-lime-400"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-emerald-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-teal-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-cyan-600"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-sky-600"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-indigo-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-purple-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-fuchsia-600"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-rose-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-cyan-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-lime-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-amber-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-indigo-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-[#f1f1f1]"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-[#ffc020]"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-[#ffc020]"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-violet-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-red-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-green-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-pink-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-slate-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-blue-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-gray-500"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-black"
+                              htmlFor="html"
+                            ></label>
+                          </div>
                         </div>
                       )}
                     </div>
@@ -207,12 +504,158 @@ const RemainingBody = () => {
                       </div>
                       {openFour && (
                         <div className="pt-4 pb-4 w-10/12">
-                          <h4 className="">
-                            A luxurious blend of comfort and elegance, Interlock
-                            is renowned for its softness and durability. Elevate
-                            your style with this exquisite fabric for a timeless
-                            wardrobe essential.
-                          </h4>
+                          <h4 className="">Choose Base Color</h4>
+
+                          <div className="grid md:grid-cols-12 grid-cols-6 gap-2 pt-3">
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-orange-500"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-gray-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-pink-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-green-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-red-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-blue-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-violet-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-yellow-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-zinc-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-neutral-300"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-stone-600"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-red-950"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-amber-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-lime-400"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-emerald-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-teal-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-cyan-600"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-sky-600"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-indigo-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-purple-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-fuchsia-600"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-rose-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-cyan-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-lime-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-amber-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-indigo-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-[#f1f1f1]"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-[#ffc020]"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-[#ffc020]"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-violet-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-red-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-green-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-pink-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-slate-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-blue-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-gray-500"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-black"
+                              htmlFor="html"
+                            ></label>
+                          </div>
                         </div>
                       )}
                     </div>
@@ -241,19 +684,165 @@ const RemainingBody = () => {
                       </div>
                       {openFive && (
                         <div className="pt-4 pb-4 w-10/12">
-                          <h4 className="">
-                            A luxurious blend of comfort and elegance, Interlock
-                            is renowned for its softness and durability. Elevate
-                            your style with this exquisite fabric for a timeless
-                            wardrobe essential.
-                          </h4>
+                          <h4 className="">Choose Design Color</h4>
+
+                          <div className="grid md:grid-cols-12 grid-cols-6 gap-2 pt-3">
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-orange-500"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-gray-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-pink-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-green-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-red-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-blue-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-violet-800"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-yellow-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-zinc-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-neutral-300"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-stone-600"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-red-950"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-amber-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-lime-400"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-emerald-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-teal-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-cyan-600"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-sky-600"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-indigo-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-purple-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-fuchsia-600"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-rose-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-cyan-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-lime-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-amber-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-indigo-800"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-[#f1f1f1]"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-[#ffc020]"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-[#ffc020]"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-violet-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-red-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-green-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-pink-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-slate-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-blue-500"
+                              htmlFor="html"
+                            ></label>{" "}
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-gray-500"
+                              htmlFor="html"
+                            ></label>
+                            <label
+                              class="relative flex items-center p-4 rounded cursor-pointer bg-black"
+                              htmlFor="html"
+                            ></label>
+                          </div>
                         </div>
                       )}
                     </div>
 
                     <div className="pt-8 flex justify-center">
                       <a
-                        href="/careers"
+                        href=""
                         className="relative inline-flex items-center bg-gray-500 justify-center py-2 px-16 overflow-hidden font-semibold text-white transition duration-1000 ease-out rounded group"
                       >
                         <span className="absolute inset-0 flex items-center bg-gray-500 justify-center w-full h-full text-white duration-300 -translate-x-full bg-companyColor group-hover:translate-x-0 ease-in-out">
