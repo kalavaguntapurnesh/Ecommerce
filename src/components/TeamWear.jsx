@@ -2,7 +2,7 @@ import React from "react";
 
 const TeamWear = () => {
   return (
-    <div className="bg-[#f4f4f4]">
+    <div className="bg-white">
       <div className="relative lg:pt-8 pt-4">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">

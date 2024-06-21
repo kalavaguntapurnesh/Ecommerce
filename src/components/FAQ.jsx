@@ -1,14 +1,8 @@
 import Accordion from "../components/Accordion";
-import { FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaFacebookF } from "react-icons/fa";
-import { FaDiscord } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
 
 const FAQ = () => {
   return (
-    <div className="bg-[#f4f4f4]">
+    <div className="bg-white">
       <div className="relative pt-20 pb-8">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
@@ -49,38 +43,6 @@ const FAQ = () => {
                       title="How can our customers contact us for immediate guidance?"
                       answer="You can contact us through mail on macglobalservices@gmail.com or go to the Contact page for further information. And we are ready to help."
                     />
-                  </div>
-                </div>
-
-                <div className="md:pt-16 pt-8">
-                  <div className="flex justify-center items-center">
-                    <h1 className="text-4xl font-semibold">Follow us on</h1>
-                  </div>
-                  <div className="flex justify-center items-center pt-4 font-normal text-lg">
-                    <p className="text-center">
-                      Always stay informed and connected to all our channels,
-                      support us and help us grow!
-                    </p>
-                  </div>
-                  <div className="grid grid-cols-6 gap-2 pt-8">
-                    <a href="" className="flex justify-center items-center">
-                      <FaInstagram className="md:w-9 md:h-9 h-8 w-8" />
-                    </a>
-                    <a href="" className="flex justify-center items-center">
-                      <FaFacebookF className="md:w-9 md:h-9 h-8 w-8" />
-                    </a>
-                    <a href="" className="flex justify-center items-center">
-                      <FaXTwitter className="md:w-9 md:h-9 h-8 w-8" />
-                    </a>
-                    <a href="" className="flex justify-center items-center">
-                      <FaWhatsapp className="md:w-9 md:h-9 h-8 w-8" />
-                    </a>
-                    <a href="" className="flex justify-center items-center">
-                      <FaDiscord className="md:w-9 md:h-9 h-8 w-8" />
-                    </a>
-                    <a href="" className="flex justify-center items-center">
-                      <FaLinkedinIn className="md:w-9 md:h-9 h-8 w-8" />
-                    </a>
                   </div>
                 </div>
               </div>

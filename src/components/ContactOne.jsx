@@ -1,6 +1,12 @@
 import { IoMdMailUnread } from "react-icons/io";
 import { FaAddressBook } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const ContactOne = () => {
   return (
@@ -191,6 +197,38 @@ const ContactOne = () => {
                     </div>
                   </div>
                 </form>
+              </div>
+            </div>
+
+            <div className="md:pt-16 pt-8 pb-6">
+              <div className="flex justify-center items-center">
+                <h1 className="text-4xl font-semibold">Follow us on</h1>
+              </div>
+              <div className="flex justify-center items-center pt-4 font-normal text-lg">
+                <p className="text-center">
+                  Always stay informed and connected to all our channels,
+                  support us and help us grow!
+                </p>
+              </div>
+              <div className="grid grid-cols-6 gap-2 pt-8">
+                <a href="" className="flex justify-center items-center">
+                  <FaInstagram className="md:w-9 md:h-9 h-8 w-8" />
+                </a>
+                <a href="" className="flex justify-center items-center">
+                  <FaFacebookF className="md:w-9 md:h-9 h-8 w-8" />
+                </a>
+                <a href="" className="flex justify-center items-center">
+                  <FaXTwitter className="md:w-9 md:h-9 h-8 w-8" />
+                </a>
+                <a href="" className="flex justify-center items-center">
+                  <FaWhatsapp className="md:w-9 md:h-9 h-8 w-8" />
+                </a>
+                <a href="" className="flex justify-center items-center">
+                  <FaDiscord className="md:w-9 md:h-9 h-8 w-8" />
+                </a>
+                <a href="" className="flex justify-center items-center">
+                  <FaLinkedinIn className="md:w-9 md:h-9 h-8 w-8" />
+                </a>
               </div>
             </div>
           </div>

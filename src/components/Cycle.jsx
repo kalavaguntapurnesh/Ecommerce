@@ -27,7 +27,7 @@ const Cycle = () => {
 
   const duplicatedSlides = [...slides, ...slides];
   return (
-    <div className="bg-[#f4f4f4]">
+    <div className="bg-white">
       <div className="relative lg:pt-20 pt-12 lg:pb-12 pb-8">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
@@ -45,8 +45,8 @@ const Cycle = () => {
                     result will be exceptional!
                   </p>
                 </div>
-                <div className="relative h-full overflow-hidden py-12 bg-[#f4f4f4] mx-auto">
-                  <div className="absolute inset-0 before:absolute before:left-0 before:top-0 before:w-1/4 before:h-full before:bg-gradient-to-r before:from-[#f4f4f4] before:to-transparent before:filter before:blur-3 after:absolute after:right-0 after:top-0 after:w-1/4 after:h-full after:bg-gradient-to-l after:from-[#f4f4f4] after:to-transparent after:filter after:blur-3"></div>
+                <div className="relative h-full overflow-hidden py-12 bg-white mx-auto">
+                  <div className="absolute inset-0 before:absolute before:left-0 before:top-0 before:w-1/4 before:h-full before:bg-gradient-to-r before:from-white before:to-transparent before:filter before:blur-3 after:absolute after:right-0 after:top-0 after:w-1/4 after:h-full after:bg-gradient-to-l after:from-white after:to-transparent after:filter after:blur-3"></div>
 
                   <motion.div
                     className="flex"

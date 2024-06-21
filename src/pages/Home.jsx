@@ -9,6 +9,7 @@ import ScrollToTop from "../components/ScrollToTop";
 import Steps from "../components/Steps";
 import FAQ from "../components/FAQ";
 import ActiveSlider from "./../components/ActiveSlider";
+import Questions from "../components/Questions";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <TeamWear />
       <ActiveSlider />
       <FAQ />
+      <Questions />
       <Footer />
     </>
   );
