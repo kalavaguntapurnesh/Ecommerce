@@ -6,7 +6,7 @@ import { MdLocalGroceryStore } from "react-icons/md";
 
 const HeroDown = () => {
   return (
-    <div className="bg-[#f4f4f4]">
+    <div className="bg-white">
       <div className="relative lg:pt-32 pt-16 pb-4">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">

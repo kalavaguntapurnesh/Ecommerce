@@ -5,7 +5,7 @@ import Delivery from "../assets/delivery.svg";
 
 const Benefits = () => {
   return (
-    <div className="bg-[#f4f4f4]">
+    <div className="bg-white">
       <div className="relative lg:pt-8 pt-4 lg:pb-16 pb-12">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">

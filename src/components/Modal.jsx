@@ -31,7 +31,7 @@ const Modal = ({ isVisible, onClose }) => {
       onClick={handleClose}
       id="wrapper"
     >
-      <div className="flex flex-col items-center justify-center bg-white rounded-lg ">
+      <div className="flex flex-col items-center justify-center bg-white rounded-xl ">
         <button
           className="text-black text-xl place-self-end mr-3 mt-2 p-1"
           onClick={() => onClose()}
