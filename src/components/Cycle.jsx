@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import One from "../../public/One.webp";
-import Two from "../../public/Two.webp";
-import Three from "../../public/Three.webp";
-import Four from "../../public/Four.webp";
-import Five from "../../public/Five.webp";
+import One from "../assets/One.webp";
+import Two from "../assets/Two.webp";
+import Three from "../assets/Three.webp";
+import Four from "../assets/Four.webp";
+import Five from "../assets/Five.webp";
 
 const Cycle = () => {
   const slides = [
