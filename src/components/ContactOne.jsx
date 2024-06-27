@@ -59,7 +59,7 @@ const ContactOne = () => {
                     </div>
                     <div className="flex justify-center items-center pt-2">
                       <h1 className="text-center font-semibold text-lg">
-                        Contact Our Address
+                        Contact Our Email
                       </h1>
                     </div>
                     <div className="flex justify-center items-center pt-2">
@@ -77,7 +77,7 @@ const ContactOne = () => {
                     </div>
                     <div className="flex justify-center items-center pt-2">
                       <h1 className="text-center font-semibold text-lg">
-                        Contact Our Address
+                        Contact Our Phone
                       </h1>
                     </div>
                     <div className="flex justify-center items-center pt-2">
@@ -210,7 +210,7 @@ const ContactOne = () => {
                   support us and help us grow!
                 </p>
               </div>
-              <div className="grid grid-cols-6 gap-2 pt-8">
+              <div className="grid grid-cols-5 gap-2 pt-8">
                 <a href="" className="flex justify-center items-center">
                   <FaInstagram className="md:w-9 md:h-9 h-8 w-8" />
                 </a>
@@ -222,9 +222,6 @@ const ContactOne = () => {
                 </a>
                 <a href="" className="flex justify-center items-center">
                   <FaWhatsapp className="md:w-9 md:h-9 h-8 w-8" />
-                </a>
-                <a href="" className="flex justify-center items-center">
-                  <FaDiscord className="md:w-9 md:h-9 h-8 w-8" />
                 </a>
                 <a href="" className="flex justify-center items-center">
                   <FaLinkedinIn className="md:w-9 md:h-9 h-8 w-8" />

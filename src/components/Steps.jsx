@@ -1,5 +1,5 @@
 import React from "react";
-import Three from "../../public/Three.webp";
+import Three from "../assets/Three.webp"
 
 const Steps = () => {
   return (

@@ -1,11 +1,46 @@
 import React from "react";
-import Three from "../../public/Three.webp";
-import { FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa6";
+import Three from "../assets/Three.webp";
 
 const Product = () => {
+  const relatedProducts = [
+    {
+      image:
+        "https://getmygear.in/wp-content/uploads/Black-Front-10-1-370x444.png",
+      heading: "Custom Sports Jersey – Sub Design-Black-7",
+      button: "Journey Starts here",
+    },
+    {
+      image:
+        "https://getmygear.in/wp-content/uploads/Black-Front-25-1-370x444.png",
+      heading: "Custom Sports Jersey – Sub Design-Gray-15",
+      button: "Explore with us",
+    },
+    {
+      image:
+        "https://getmygear.in/wp-content/uploads/Black-Front-7-1-370x444.png",
+      heading: "Custom Sports Jersey – Sub Design-Green-10",
+      button: "Make a better future",
+    },
+    {
+      image:
+        "https://getmygear.in/wp-content/uploads/Black-Front-22-2-370x444.png",
+      heading: "Custom Sports Jersey – Sub Design-Blue-15",
+      button: "Collaborate with us",
+    },
+    {
+      image:
+        "https://getmygear.in/wp-content/uploads/Black-Front-15-1-370x444.png",
+      heading: "Custom Sports Jersey – Sub Design-Orange-8",
+      button: "Collaborate with us",
+    },
+    {
+      image:
+        "https://getmygear.in/wp-content/uploads/Black-Front-8-1-370x444.png",
+      heading: "Custom Sports Jersey – Sub Design-Black-15",
+      button: "Collaborate with us",
+    },
+  ];
+
   return (
     <div className="bg-white ">
       <div className="relative pb-8 pt-32">
@@ -77,10 +112,47 @@ const Product = () => {
                           </svg>
                         </span>
                         <span className="absolute flex items-center justify-center w-full h-full text-white transition-all duration-1000 transform group-hover:translate-x-full ease-in-out">
-                          Customize Now &#8594;
+                          Customize Now
                         </span>
                         <span className="relative invisible">Button Text</span>
                       </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="pt-6 pb-6">
+                  <div className="flex justify-center items-center">
+                    <h1 className="text-4xl font-semibold">Related Products</h1>
+                  </div>
+
+                  <div class="flex flex-col bg-white m-auto p-auto pt-12">
+                    <div class="flex overflow-x-scroll pb-10 hide-scroll-bar">
+                      <div class="flex flex-nowrap">
+                        {relatedProducts.map((item, index) => (
+                          <a href="" class="inline-block px-3 cursor-pointer">
+                            <div className="w-64 ">
+                              <div className="flex flex-col justify-center items-center ">
+                                <div className="flex justify-center items-center">
+                                  <img src={item.image} alt="" />
+                                </div>
+                                <div className="flex flex-col pt-5">
+                                  <div className="font-semibold text-center">
+                                    <h1>{item.heading}</h1>
+                                  </div>
+                                  <div className="pt-5 flex justify-center items-center">
+                                    <a
+                                      href="/contact"
+                                      className="py-2 px-8 hover:border-black bg-black hover:bg-white hover:border-2 font-medium rounded text-white hover:text-black transition ease-in-out duration-1000"
+                                    >
+                                      Customize
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 </div>

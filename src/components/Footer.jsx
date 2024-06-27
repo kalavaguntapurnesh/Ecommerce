@@ -1,6 +1,6 @@
 // import FooterLogo from "../assets/logos/FooterLogo.png";
 import { FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaF, FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
@@ -210,20 +210,6 @@ const Footer = () => {
                   </h4>
                   <div className="grid grid-cols-5 gap-2 mt-4">
                     <a href="/about">
-                      <FaInstagram
-                        size={25}
-                        className="cursor-pointer"
-                        color="black"
-                      />
-                    </a>
-                    <a href="/about">
-                      <FaXTwitter
-                        size={25}
-                        className="cursor-pointer"
-                        color="black"
-                      />
-                    </a>
-                    <a href="/about">
                       <FaLinkedin
                         size={25}
                         className="cursor-pointer"
@@ -238,6 +224,20 @@ const Footer = () => {
                       />
                     </a>
                     <a href="/about">
+                      <FaInstagram
+                        size={25}
+                        className="cursor-pointer"
+                        color="black"
+                      />
+                    </a>
+                    <a href="/about">
+                      <FaXTwitter
+                        size={25}
+                        className="cursor-pointer"
+                        color="black"
+                      />
+                    </a>
+                    <a href="/about">
                       <FaYoutube
                         size={25}
                         className="cursor-pointer"
@@ -245,7 +245,7 @@ const Footer = () => {
                       />
                     </a>
                   </div>
-                  <div className="mt-8">
+                  <div className="mt-5">
                     <form action="">
                       <div className="mt-4 flex flex-col justify-center items-center">
                         <div className=" flex justify-center items-center w-full">

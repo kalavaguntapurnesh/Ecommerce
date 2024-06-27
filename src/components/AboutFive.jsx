@@ -262,7 +262,7 @@ const AboutFive = () => {
                   </div>
                 </div>
 
-                <div className="bg-[#f4f4f4] ">
+                <div className="bg-white ">
                   <div className="relative pb-4 pt-12">
                     <div className="w-full">
                       <div className="w-full px-4 mx-auto max-w-[1400px]">
@@ -274,7 +274,7 @@ const AboutFive = () => {
                               </h1>
                             </div>
 
-                            <div className="flex items-center justify-center flex-col bg-[#f4f4f4] pt-8">
+                            <div className="flex items-center justify-center flex-col bg-white pt-8">
                               <Swiper
                                 breakpoints={{
                                   340: {
@@ -300,7 +300,7 @@ const AboutFive = () => {
                               >
                                 {ServiceData.map((item) => (
                                   <SwiperSlide key={item.title}>
-                                    <div className="rounded-md bg-[#f4f4f4] shadow-lg h-100 ">
+                                    <div className="rounded-md bg-white shadow-lg h-100 ">
                                       <div className="flex flex-col justify-center items-center mb-20 ">
                                         <div className="w-full flex items-center justify-center mt-3 mb-3">
                                           <img
